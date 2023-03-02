@@ -4,7 +4,7 @@ import React from 'react';
 
 const Settings=() => {
 	return (
-		<div>Settings</div>
+		<div>Settingxxxs</div>
 	);
 }
 export default Settings;
