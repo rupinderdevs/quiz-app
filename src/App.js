@@ -2,8 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Quiz App</h1>      
+    <div>
+        <h1 className='text-5xl'>Hello Lanumeet</h1>      
     </div>
   );
 }
