@@ -13,10 +13,9 @@ module.exports = {
       transparent: "transparent",
       yellow: { DEFAULT: "#FFA200", light: "#FFA20033" },
       primary: {
-        // blue color
-        DEFAULT: "#005774",
-        90: "#26CBED",
-        80: "#9AEEFF",
+        DEFAULT: "#2F4F4F",
+        90: "#5F9EA0",
+        // 80: "#9AEEFF",
         light: "#E1FAFF",
       },
       grey: {

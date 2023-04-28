@@ -1,12 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./screens/home";
-import Profile from "./screens/profile";
+import { HomePage, Login, Profile, Signup } from "./screens";
+
 
 const ScreenRoutes = () => {
   // const navigate = useNavigate();
 
   return (
     <Routes>
+      <Route path="/login" element={<Login />} />
+      <Route path="/sign-up" element={<Signup />} />
+
+
       <Route path="/" element={<HomePage />} />
       <Route path="/profile" element={<Profile />} />
 
